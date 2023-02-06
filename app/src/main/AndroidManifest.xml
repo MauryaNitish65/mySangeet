@@ -16,12 +16,7 @@
         android:theme="@style/Theme.MySangeet"
         tools:targetApi="31">
         <activity
-            android:name=".PlaySong"
-            android:exported="false"
-            android:parentActivityName=".MainActivity"
-            android:label="mySangeet"/>
-        <activity
-            android:name=".MainActivity"
+            android:name=".SplashScreenActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -29,6 +24,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".PlaySong"
+            android:exported="false"
+            android:label="mySangeet"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"/>
     </application>
 
 </manifest>
