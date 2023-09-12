@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "997530849698",
+    "project_id": "mysangeet-ab627",
+    "storage_bucket": "mysangeet-ab627.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:997530849698:android:f949c78cb09b2a2e5a22fb",
+        "android_client_info": {
+          "package_name": "com.example.mysangeet"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATScRa-Gb5aLAd_dP664tQaGNOH2JVt0c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
